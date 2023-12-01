@@ -5,6 +5,7 @@ import circle_blue from "/mock-imges/icons/cirlce-blue.svg";
 import orange_watch from "/mock-imges/icons/orange-watch.svg";
 import blue_bike from "/mock-imges/icons/blue-bike.svg";
 import red_shop from "/mock-imges/icons/red-shop.svg";
+import { Button } from "../../../common/button/Button";
 
 export const Delivery = () => {
   return (
@@ -59,6 +60,9 @@ export const Delivery = () => {
                 500+ restaurant & cafe shop
               </p>
             </span>
+            <div className="dfcol items-start">
+              <Button isActive={null}>See more</Button>
+            </div>
           </div>
         </div>
       </div>
